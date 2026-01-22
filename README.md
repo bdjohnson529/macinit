@@ -5,4 +5,7 @@ Scripts for initializing new macs with personal preferences, shortcuts and more.
 ```
 mv .zshrc ~/
 source ~/.zshrc
+
+chmod +x install.sh
+./install.sh
 ```
