@@ -3,3 +3,4 @@
 
 # node
 brew install node
+brew install uv
