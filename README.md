@@ -22,6 +22,7 @@ export PATH="$PATH:/Users/YOUR_NAME_HERE/Library/Python/3.9/bin"
 To install custom libraries
 ```
 cd python_tools
+pip3 install -r requirements.txt
 pip3 install .
 ```
 
