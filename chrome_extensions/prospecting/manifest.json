@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Connection Drafter",
+  "version": "1.0.0",
+  "description": "Generate a personalized LinkedIn connection message from any profile page.",
+  "action": {
+    "default_title": "LinkedIn Connection Drafter"
+  },
+  "side_panel": {
+    "default_path": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["activeTab", "scripting", "clipboardWrite", "sidePanel", "tabs"],
+  "host_permissions": ["https://www.linkedin.com/*"]
+}
